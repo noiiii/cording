@@ -88,4 +88,19 @@ document.addEventListener('DOMContentLoaded', function() {
       window.location.href = 'confirm.html';
     });
   }
+  // フォームの入力値を復元する処理
+  const name = localStorage.getItem('name');
+  const email = localStorage.getItem('email');
+  const message = localStorage.getItem('message');
+
+  if (name) {
+      document.getElementById('name').value = name;
+  }
+  if (email) {
+      document.getElementById('email').value = email;
+  }
+  if (message) {
+      document.getElementById('message').value = message;
+  }
+
 });
