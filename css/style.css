@@ -55,6 +55,12 @@ section {
   width: 90%;
   text-align: left;
   margin: auto;
+
+  a {
+    display: block; /* <a> タグをブロック要素化 */
+    width: fit-content; /* ボタンの幅に合わせる */
+    margin: 0 auto; /* 左右の margin を auto にして中央寄せ */
+  }
 }
 footer {
   background-color: #333;
