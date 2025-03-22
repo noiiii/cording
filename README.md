@@ -29,6 +29,8 @@ GitHub PagesではPHPは使えない
 Formspreeでフォームを作る方法
 https://formspree.io/
 
+問い合わせフォームの確認
+https://formspree.io/forms/xldjbrjz/submissions
 ーーーー
 GitHub にコミット＆デプロイ
 cd /Users/oku_m1_air/Github/cording/
@@ -43,3 +45,4 @@ git push origin main # 変更をリモートリポジトリにプッシュ
 git commit --allow-empty -m "Trigger rebuild after Pages source fix"
 git push origin main
 
+ーーーー
