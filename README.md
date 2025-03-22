@@ -1,6 +1,14 @@
 サイトURL
 https://noiiii.github.io/cording/
 
+ーーーー
+ローカルホストでフォームを確認する場合
+ターミナルで
+php -S localhost:8000
+
+WEBブラウザで確認
+http://localhost:8000/
+
 ーーー
 お申し込みフォームを
 テストするためにPHPをインストールする
@@ -14,9 +22,15 @@ brew install php
 上記を一度設定しておけば、次回からは何もしなくてもOK！
 
 ーーーー
-ローカルホストでフォームを確認する場合
-ターミナルで
-php -S localhost:8000
+GitHub Pages は「静的サイトホスティングサービス」なので
+GitHub PagesではPHPは使えない
+Formspreeでフォームを作る方法
+https://formspree.io/
 
-WEBブラウザで確認
-http://localhost:8000/
+ーーーー
+GitHub にコミットするためのターミナルコード
+cd /Users/oku_m1_air/Github/cording/
+git status # ローカルリポジトリの状態を確認
+git add . # 変更されたすべてのファイルをステージング
+git commit -m "Update: Add new features and fix bugs" # 変更をコミット（コミットメッセージは変更内容に合わせて変更してください）
+git push origin main # 変更をリモートリポジトリにプッシュ
