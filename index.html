@@ -138,7 +138,7 @@
           <button type="submit">確認画面へ</button>
         </form> -->
 
-        <form class="contact-form" action="https://formspree.io/f/xldjbrjz" method="post" id="contactForm">
+        <!-- <form class="contact-form" action="https://formspree.io/f/xldjbrjz" method="POST" id="contactForm">
           <div class="form-group">
             <label for="name">お名前:</label>
             <input type="text" id="name" name="name" required>
@@ -153,7 +153,23 @@
           </div>
           <button type="submit">確認画面へ</button>
           <input type="hidden" name="_next" value="https://noiiii.github.io/cording/thanks.html">
-        </form>
+        </form> -->
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form
+        action="https://formspree.io/f/xldjbrjz"
+        method="POST"
+        >
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+        </form> 
 
       </div>
     </section>
