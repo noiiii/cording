@@ -1,3 +1,6 @@
+サイトURL
+https://noiiii.github.io/cording/
+
 ーーー
 お申し込みフォームを
 テストするためにPHPをインストールする
