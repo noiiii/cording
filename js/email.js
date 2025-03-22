@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // confirm.html側の処理
   const confirmData = document.getElementById('confirm-data');
   if (confirmData) {
+    
     // localStorageからデータを取得
     const name = localStorage.getItem('name');
     const email = localStorage.getItem('email');
